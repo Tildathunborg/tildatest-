@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare - Hudvårdsprodukter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Skincare</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Om Oss</a></li>
+                    <li><a href="#products">Produkter</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Om Oss</h2>
+            <p>Välkommen till Skincare, din favoritbutik för hudvårdsprodukter. Vi erbjuder naturliga och ekologiska hudvårdsprodukter som får din hud att stråla. Upptäck vårt breda sortiment och känn skillnaden!</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Våra Produkter</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="product1.jpg" alt="Ansiktskräm">
+                    <h3>Ansiktskräm</h3>
+                    <p>En naturlig ansiktskräm som återfuktar din hud hela dagen.</p>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Serum">
+                    <h3>Serum</h3>
+                    <p>Ett kraftfullt serum som minskar fina linjer och återställer lyster.</p>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Rengöringsgel">
+                    <h3>Rengöringsgel</h3>
+                    <p>Rengör huden på djupet och lämnar den ren och fräsch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form id="contactForm">
+                <label for="name">Namn</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-post</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Meddelande</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Skicka</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Skincare - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
